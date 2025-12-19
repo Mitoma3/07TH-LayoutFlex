@@ -9,21 +9,24 @@ body {
 /* Some default styles to make each box visible */
 div > div {
   color: white;
-  font-size: 5em;
+
   text-align: center;
-  padding: 10px;
-  width: 10rem;
+  
+  width: 150px;
+  height: auto;
+  margin: 20px;
 }
 
 /* de flexcontainer */
 h1 + div {
   border: 2px solid black;
-  display: block flex;
-  width: 35rem;
+  display: flex;
+  width: 100%;
   flex-wrap: wrap;
-  justify-content: space-between;
-  height: 50vh;
-  align-content: flex-end; /* default value */
+  height: 75vh;
+ 
+  
+  gap: 20px;
 }
 
 /* Flex items */
