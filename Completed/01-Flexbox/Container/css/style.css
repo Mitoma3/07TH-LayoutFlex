@@ -12,8 +12,8 @@ div > div {
 
   text-align: center;
   
-  width: 150px;
-  height: auto;
+  width: 100px;
+  height: 20px;
   margin: 20px;
 }
 
@@ -24,17 +24,20 @@ h1 + div {
   width: 100%;
   flex-wrap: wrap;
   height: 75vh;
- 
-  
-  gap: 20px;
+  align-items: center;
+  align-content: space-evenly;
+  gap: 30px;
 }
 
 /* Flex items */
 div > div:nth-child(1) {
   background-color: darkorange;
+  order: 4;
+  height: 40px;
 }
 div > div:nth-child(2) {
   background-color: green;
+  order: 4;
 }
 div > div:nth-child(3) {
   background-color: blue;

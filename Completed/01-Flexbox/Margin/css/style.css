@@ -10,6 +10,8 @@ ul{
   background-color: lightgray;
   display: block flex;
   padding: 5px;
+  justify-content: space-around;
+  gap: 10px;
 }
 li{
   color: white;
@@ -18,12 +20,12 @@ li{
   border-radius: 5px;
   font-size: 1.2rem;
   text-align: center;
-  padding: 2px;
-  margin: 5px;
+  padding: 5px;
   flex:0 0 auto; /* default value is 0 1 auto */
 }
-li:nth-child(1){
-  margin-right: auto;
-  margin-left: auto;
+li:nth-child(2), li:nth-child(1){
+  margin: auto;
+  
 }
+
 
